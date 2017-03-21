@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# You know rm commands causes nasty disasters sometimes....
+# todo: conflict to dest file has to be resolved
+
+mkdir -p ~/.Trash
+
+mv $@ ~/.Trash
